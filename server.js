@@ -1,5 +1,5 @@
 require('rootpath')();
-require('dotenv').config()
+require('dotenv').config();
 
 const isDev = require('isdev');
 
@@ -15,12 +15,7 @@ const chalk  = require('chalk');
 const mysql = require('mysql');
 const log = console.log;
 
-const db = mysql.createConnection({
-    host: process.env.DB_HOST,
-    user: process.env.DB_USER,
-    password: process.env.DB_PWD,
-    database: process.env.DB_NAME
-});
+const db = require('api/services/database');
 
 const startWorker = (workerId, cb) => {
     const app = express.init();
