@@ -1,0 +1,30 @@
+{
+  "name": "lattis",
+  "version": "1.0.0",
+  "description": "test task",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "keywords": [
+    "test",
+    "node",
+    "mysql",
+    "lattis"
+  ],
+  "author": "ju",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "compression": "^1.7.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "isdev": "^1.0.1",
+    "method-override": "^3.0.0",
+    "mysql": "^2.16.0",
+    "rootpath": "^0.1.2",
+    "throng": "^4.0.0"
+  }
+}
