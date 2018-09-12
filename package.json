@@ -15,6 +15,7 @@
   "author": "ju",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^3.0.0",
     "chalk": "^2.4.1",
     "compression": "^1.7.3",
     "cookie-parser": "^1.4.3",
@@ -22,9 +23,12 @@
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "isdev": "^1.0.1",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.10",
     "method-override": "^3.0.0",
     "mysql": "^2.16.0",
     "rootpath": "^0.1.2",
-    "throng": "^4.0.0"
+    "throng": "^4.0.0",
+    "uuid": "^3.3.2"
   }
 }
